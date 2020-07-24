@@ -1,0 +1,10 @@
+POST http://localhost:3000/validate-address
+Content-Type: application/json
+
+{
+  "street1": "2701 SW 8th street",
+  "street2": "222",
+  "city": "Boynton Bech",
+  "state": "FL",
+  "zip": "33335"
+}
